@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container} from 'react-bootstrap';
+import { Container, Carousel, CarouselItem} from 'react-bootstrap';
 import fon from './Photo/Rectangle 10.svg';
 import Bukva from './Photo/img_1_491_94126f.svg';
 import Okruzhnost from './Photo/Ellipse 2.svg';
@@ -42,6 +42,8 @@ import Oblako6 from './Photo/Group 14.svg'
 import Step from './Photo/klipartz 2.svg'
 import Plenka1 from './Photo/Group 78 (2).svg'
 import fsdfsfewasf from './Photo/Mask Group54 2.svg'
+import sdgfdf from './Photo/Group 141.svg'
+import Plenka2 from './Photo/Plenka2.svg'
 
 export default class main extends Component {
   render() {
@@ -196,6 +198,15 @@ export default class main extends Component {
             <img src={fsdfsfewasf} style={{position:"absolute", marginLeft:"-750px", marginTop:"-280px", zIndex:"1" }} />
             <h1 style={{position:"absolute", marginLeft:"570px", fontSize:"70px", marginTop:"-70px"}} >Наши клиенты</h1>
             <p style={{position:"absolute", marginLeft:"570px",  marginTop:"20px"}}>Давайте посмотрим плеку наших клиентов, здесь мы собрали<br/>только малую часть. Мы гарантируем эффективность нашей<br/>работы в кротчайшие сроки.</p>
+            <img src={sdgfdf} style={{position:"absolute", marginLeft:"-520px", marginTop:"240px", zIndex:"0", width:"450px" }} />
+            <Carousel>
+              <CarouselItem>
+                <img src={Plenka2} style={{ marginLeft:"328px", marginTop:"212px", zIndex:"3", width:"450px" }}/>
+              </CarouselItem>
+              <CarouselItem>
+                <img src={Plenka2} style={{ marginLeft:"328px", marginTop:"212px", zIndex:"3", width:"450px" }}/>
+              </CarouselItem>
+            </Carousel>
           </Container>
       </div>
       </>
