@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { Container, Carousel, CarouselItem} from 'react-bootstrap';
+import Slider from './css/slider.css'
+import { Container, Carousel, CarouselItem, CarouselCaption} from 'react-bootstrap';
 import fon from './Photo/Rectangle 10.svg';
 import Bukva from './Photo/img_1_491_94126f.svg';
 import Okruzhnost from './Photo/Ellipse 2.svg';
@@ -44,6 +45,20 @@ import Plenka1 from './Photo/Group 78 (2).svg'
 import fsdfsfewasf from './Photo/Mask Group54 2.svg'
 import sdgfdf from './Photo/Group 141.svg'
 import Plenka2 from './Photo/Plenka2.svg'
+import nextSlide from './Photo/Group 15.svg'
+import prevSlide from './Photo/Vector.svg'
+import Plenka3 from './Photo/3.svg'
+import Plenka4 from './Photo/4.svg'
+import Plenka5 from './Photo/5.svg'
+import Plenka6 from './Photo/6.svg'
+import Plenka7 from './Photo/7.svg'
+import Plenka8 from './Photo/8.svg'
+import Plenka9 from './Photo/2.svg'
+import Step2 from './Photo/klipartz 4.svg'
+import girl from './Photo/Group 78 (5).svg'
+import balckBG from './Photo/hjnifsd.svg'
+import QuotMarks from './Photo/Group (1).svg'
+import Carousel1 from './Carousel1'
 
 export default class main extends Component {
   render() {
@@ -199,14 +214,46 @@ export default class main extends Component {
             <h1 style={{position:"absolute", marginLeft:"570px", fontSize:"70px", marginTop:"-70px"}} >Наши клиенты</h1>
             <p style={{position:"absolute", marginLeft:"570px",  marginTop:"20px"}}>Давайте посмотрим плеку наших клиентов, здесь мы собрали<br/>только малую часть. Мы гарантируем эффективность нашей<br/>работы в кротчайшие сроки.</p>
             <img src={sdgfdf} style={{position:"absolute", marginLeft:"-520px", marginTop:"240px", zIndex:"0", width:"450px" }} />
+            <img src={nextSlide} style={{position:"absolute",marginTop:"348px", marginLeft:"38px", zIndex:"-1" }} />
+            <img src={prevSlide} style={{position:"absolute",marginTop:"364px", marginLeft:"-15px", zIndex:"-1" }} />
+            <img src={Step2} style={{position:"absolute", marginTop:"250px", marginLeft:"-1000px"}} />
+            <h1 style={{position:"absolute", marginTop:"285px", marginLeft:"810px", fontSize:"25px"}} >Смотреть всех</h1>
             <Carousel>
               <CarouselItem>
                 <img src={Plenka2} style={{ marginLeft:"328px", marginTop:"212px", zIndex:"3", width:"450px" }}/>
               </CarouselItem>
               <CarouselItem>
-                <img src={Plenka2} style={{ marginLeft:"328px", marginTop:"212px", zIndex:"3", width:"450px" }}/>
+                <img src={Plenka9} style={{ marginLeft:"328px", marginTop:"212px", zIndex:"3", width:"450px" }}/>
+              </CarouselItem>
+              <CarouselItem>
+                <img src={Plenka3} style={{ marginLeft:"328px", marginTop:"212px", zIndex:"3", width:"450px" }}/>
+              </CarouselItem>
+              <CarouselItem>
+                <img src={Plenka4} style={{ marginLeft:"328px", marginTop:"212px", zIndex:"3", width:"450px" }}/>
+              </CarouselItem>
+              <CarouselItem>
+                <img src={Plenka5} style={{ marginLeft:"328px", marginTop:"212px", zIndex:"3", width:"450px" }}/>
+              </CarouselItem>
+              <CarouselItem>
+                <img src={Plenka6} style={{ marginLeft:"328px", marginTop:"212px", zIndex:"3", width:"450px" }}/>
+              </CarouselItem>
+              <CarouselItem>
+                <img src={Plenka7} style={{ marginLeft:"328px", marginTop:"212px", zIndex:"3", width:"450px" }}/>
+              </CarouselItem>
+              <CarouselItem>
+                <img src={Plenka8} style={{ marginLeft:"328px", marginTop:"212px", zIndex:"3", width:"450px" }}/>
               </CarouselItem>
             </Carousel>
+          </Container>
+          <Container className="ms-50">
+              <img src={girl} style={{position:"absolute", marginLeft:"350px", marginTop:"80px"}} />
+              <h1 style={{position:"absolute", marginTop:"200px", fontSize:"75px", marginLeft:"100px"}} >Что о нас <br />говорят?</h1>
+              <p style={{position:"absolute", marginTop:"400px", fontSize:"18px", marginLeft:"100px"}}>Давайте посмотрим плеку наших клиентов, здесь<br />
+мы собрали только малую часть. Мы гарантируем<br />
+эффективность нашей работы в кротчайшие сроки.</p>
+              <img src={balckBG} style={{position:"absolute", marginLeft:"-330px", marginTop:"610px"}} />
+              <img src={QuotMarks} style={{position:"absolute", marginLeft:"90px", marginTop:"570px"}}/>
+             <Carousel1 />
           </Container>
       </div>
       </>
