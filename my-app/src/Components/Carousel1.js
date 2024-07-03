@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import { Container, Carousel, CarouselItem, CarouselCaption} from 'react-bootstrap';
 import balckBG from './Photo/hjnifsd.svg'
-import slider1 from './css/slider1.css'
+import './сss1/slider1.css'
 
 
 export default class Carousel1 extends Component {
   render() {
     return (
-      <div className={slider1} >
-        <Carousel >
+      <div >
+        <Carousel>
                 <CarouselItem>
                   <img src={balckBG} alt="/" style={{marginTop:"700px", height:"400px"}} />
                   <CarouselCaption>

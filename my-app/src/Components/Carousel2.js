@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Slider from './css/slider.css'
+import './css/slider.css'
 import Plenka2 from './Photo/Plenka2.svg'
 import Plenka3 from './Photo/3.svg'
 import Plenka4 from './Photo/4.svg'
@@ -15,8 +15,8 @@ export default class Carousel2 extends Component {
   render() {
     return (
         <>
-      <div className={Slider}>
-        <Carousel  >
+      <div >
+        <Carousel>
               <CarouselItem>
                 <img src={Plenka2} alt="/" style={{ marginLeft:"328px", marginTop:"212px", zIndex:"3", width:"450px" }}/>
               </CarouselItem>

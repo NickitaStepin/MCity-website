@@ -44,21 +44,14 @@ import Step from './Photo/klipartz 2.svg'
 import Plenka1 from './Photo/Group 78 (2).svg'
 import fsdfsfewasf from './Photo/Mask Group54 2.svg'
 import sdgfdf from './Photo/Group 141.svg'
-import Plenka2 from './Photo/Plenka2.svg'
 import nextSlide from './Photo/Group 15.svg'
 import prevSlide from './Photo/Vector.svg'
-import Plenka3 from './Photo/3.svg'
-import Plenka4 from './Photo/4.svg'
-import Plenka5 from './Photo/5.svg'
-import Plenka6 from './Photo/6.svg'
-import Plenka7 from './Photo/7.svg'
-import Plenka8 from './Photo/8.svg'
-import Plenka9 from './Photo/2.svg'
 import Step2 from './Photo/klipartz 4.svg'
 import girl from './Photo/Group 78 (5).svg'
 import balckBG from './Photo/hjnifsd.svg'
 import QuotMarks from './Photo/Group (1).svg'
 import Carousel1 from './Carousel1'
+import Footer from './Footer'
 
 export default class main extends Component {
   render() {
@@ -108,22 +101,22 @@ export default class main extends Component {
             </Col>
           </Row>
         </Container>
-          <Container  className="ms-50">
-            <img src={svecheniepodOblako2} alt="/" style={{position:"relative", left:"540px", top:"55px", width:"650px"}} />
-            <img src={Oblako4} alt="/" style={{position:"relative", right:"90px", top:"50px", width:"350px"}} />
-            <img src={Dyadka} alt="/" style={{position:"relative", bottom:"150px"}} />
-            <img src={beliyFonPodDyadey} alt="/" style={{position:"relative", bottom:"100px", right:"470px", zIndex:"-1"}} />
-            <img src={svecheniepodDyadey} alt="/" style={{position:"relative", bottom:"628px", right:"250px", zIndex:"-2"  }} />
-            <img src={CherniyFon} alt="/" style={{position:"relative", bottom:"630px", right:"250px", zIndex:"2"  }}/>
-            <img src={ChernayaDroch} alt="/" style={{position:"relative", bottom:"631px", right:"251px", zIndex:"2"  }}/>
-            <h1 style={{position:"absolute", marginTop:"-750px", marginLeft:"40px" ,color:"white", zIndex:"3", fontSize:"90px"}} >Кто мы?</h1>
-            <p style={{fontSize:"18px" ,width:"600px", position:"relative", marginTop:"-990px", marginLeft:"700px"}} >Веб-дизайн студия MariupolCity.com - стабильно работающая на <br/> рынке IT-услуг компания, которой реализовано более 200 <br/>интернет-проектов для наших Клиентов.
-<br/><br/>
-Наши сотрудники обладают тремя важными качествами - <br/> честностью, ответственностью, стремлением быть лучшими в своем деле. Эти качества являются залогом прочных и долгосрочных отношений с нашими Клиентами.</p>
-          <a style={{position:"relative", marginLeft:"720px", fontSize:"20px", color:"black", textDecoration:"none", top:"60px"}} href='/'> Узнать больше > </a>
-          </Container>
-          <Container className="ms-50">
-            <img src={ZelenayaDroch} alt="/" style={{position:"relative", marginTop:"90px", marginLeft:"-250px", zIndex:"-3"}} />
+        <Container className="ms-50">
+          <img src={svecheniepodOblako2} alt="/" style={{ position: "relative", left: "440px", top: "55px", width: "650px" }} />
+          <img src={Oblako4} alt="/" style={{ position: "relative", right: "90px", top: "50px", width: "350px" }} />
+          <img src={Dyadka} alt="/" style={{ position: "relative", bottom: "150px" }} />
+          <img src={beliyFonPodDyadey} alt="/" style={{ position: "relative", bottom: "100px", right: "470px", zIndex: "-1" }} />
+          <img src={svecheniepodDyadey} alt="/" style={{ position: "relative", bottom: "628px", right: "300px", zIndex: "-2" }} />
+          <img src={CherniyFon} alt="/" style={{ position: "relative", bottom: "630px", right: "280px", zIndex: "2" }} />
+          <img src={ChernayaDroch} alt="/" style={{ position: "relative", bottom: "631px", right: "281px", zIndex: "2" }} />
+          <h1 style={{ position: "absolute", marginTop: "-750px", marginLeft: "40px", color: "white", zIndex: "3", fontSize: "90px" }}>Кто мы?</h1>
+          <p style={{ fontSize: "18px", width: "600px", position: "relative", marginTop: "-990px", marginLeft: "700px" }}>Веб-дизайн студия MariupolCity.com - стабильно работающая на <br /> рынке IT-услуг компания, которой реализовано более 200 <br />интернет-проектов для наших Клиентов.
+            <br /><br />
+            Наши сотрудники обладают тремя важными качествами - <br /> честностью, ответственностью, стремлением быть лучшими в своем деле. Эти качества являются залогом прочных и долгосрочных отношений с нашими Клиентами.</p>
+          <a style={{ position: "relative", marginLeft: "720px", fontSize: "20px", color: "black", textDecoration: "none", top: "60px" }} href='/'> Узнать больше > </a>
+        </Container>
+        <Container className="ms-50">
+            <img src={ZelenayaDroch} alt="/" style={{position:"relative", marginTop:"90px", marginLeft:"-280px", zIndex:"-3"}} />
             <h1 style={{position:"relative", marginTop:"-700px", marginLeft:"700px", fontSize:"90px", fontWeight:"599" }} >Чем мы<br/>занимаемся? </h1>
             <p style={{position:"absolute", marginLeft:"700px", fontSize:"20px", }} >Мы предоставляем комплексный набор услуг для продвижения<br/>
             сайта, используя в работе инструменты онлайн маркетинга.</p>
@@ -229,7 +222,9 @@ export default class main extends Component {
               <img src={balckBG} alt="/"  style={{position:"absolute", marginLeft:"-330px", marginTop:"610px"}} />
               <img src={QuotMarks} alt="/" style={{position:"absolute", marginLeft:"90px", marginTop:"570px"}}/>
              <Carousel1 />
-          </Container>
+          </Container >
+          
+          <Footer />
       </div>
       </>
     )
