@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
 import { Container, Carousel, CarouselItem, CarouselCaption} from 'react-bootstrap';
 import balckBG from './Photo/hjnifsd.svg'
+import slider1 from './css/slider1.css'
 
 
 export default class Carousel1 extends Component {
   render() {
     return (
-      <div>
-        <Carousel>
+      <div className={slider1} >
+        <Carousel >
                 <CarouselItem>
-                  <img src={balckBG} style={{marginTop:"700px", height:"400px"}} />
+                  <img src={balckBG} alt="/" style={{marginTop:"700px", height:"400px"}} />
                   <CarouselCaption>
                   <h1 style={{marginTop:"-320px", color:"white", marginLeft:"-150px", fontSize:"25px", textAlign:"left" }} >Интернет-магазин<br/>детской одежды<br />Baby-b.com.ua</h1>
                   <p style={{position:"absolute", textAlign:"left", marginTop:"-95px", marginLeft:"200px", fontSize:"16px"}} >Наша компания хотела бы выразить благодарность студии веб-дизайн<br />
@@ -28,7 +29,7 @@ Baby-b.com.ua<br />
                   </CarouselCaption>
                 </CarouselItem>
                 <CarouselItem>
-                  <img src={balckBG} style={{marginTop:"700px", height:"400px"}} />
+                  <img src={balckBG} alt="/" style={{marginTop:"700px", height:"400px"}} />
                   <CarouselCaption>
                   <h1 style={{marginTop:"-320px", color:"white", marginLeft:"-150px", fontSize:"25px", textAlign:"left" }} >Интернет-магазин<br/>детской одежды<br />Baby-b.com.ua</h1>
                   <p style={{position:"absolute", textAlign:"left", marginTop:"-95px", marginLeft:"200px", fontSize:"16px"}} >Наша компания хотела бы выразить благодарность студии веб-дизайн<br />
@@ -47,7 +48,7 @@ Baby-b.com.ua<br />
                   </CarouselCaption>
                 </CarouselItem>
                 <CarouselItem>
-                  <img src={balckBG} style={{marginTop:"700px", height:"400px"}} />
+                  <img src={balckBG} alt="/" style={{marginTop:"700px", height:"400px"}} />
                   <CarouselCaption>
                   <h1 style={{marginTop:"-320px", color:"white", marginLeft:"-150px", fontSize:"25px", textAlign:"left" }} >Интернет-магазин<br/>детской одежды<br />Baby-b.com.ua</h1>
                   <p style={{position:"absolute", textAlign:"left", marginTop:"-95px", marginLeft:"200px", fontSize:"16px"}} >Наша компания хотела бы выразить благодарность студии веб-дизайн<br />
@@ -66,7 +67,7 @@ Baby-b.com.ua<br />
                   </CarouselCaption>
                 </CarouselItem>
                 <CarouselItem>
-                  <img src={balckBG} style={{marginTop:"700px", height:"400px"}} />
+                  <img src={balckBG} alt="/" style={{marginTop:"700px", height:"400px"}} />
                   <CarouselCaption>
                   <h1 style={{marginTop:"-320px", color:"white", marginLeft:"-150px", fontSize:"25px", textAlign:"left" }} >Интернет-магазин<br/>детской одежды<br />Baby-b.com.ua</h1>
                   <p style={{position:"absolute", textAlign:"left", marginTop:"-95px", marginLeft:"200px", fontSize:"16px"}} >Наша компания хотела бы выразить благодарность студии веб-дизайн<br />
@@ -85,7 +86,7 @@ Baby-b.com.ua<br />
                   </CarouselCaption>
                 </CarouselItem>
                 <CarouselItem>
-                  <img src={balckBG} style={{marginTop:"700px", height:"400px"}} />
+                  <img src={balckBG} alt="/" style={{marginTop:"700px", height:"400px"}} />
                   <CarouselCaption>
                   <h1 style={{marginTop:"-320px", color:"white", marginLeft:"-150px", fontSize:"25px", textAlign:"left" }} >Интернет-магазин<br/>детской одежды<br />Baby-b.com.ua</h1>
                   <p style={{position:"absolute", textAlign:"left", marginTop:"-95px", marginLeft:"200px", fontSize:"16px"}} >Наша компания хотела бы выразить благодарность студии веб-дизайн<br />
@@ -104,7 +105,7 @@ Baby-b.com.ua<br />
                   </CarouselCaption>
                 </CarouselItem>
                 <CarouselItem>
-                  <img src={balckBG} style={{marginTop:"700px", height:"400px"}} />
+                  <img src={balckBG} alt="/" style={{marginTop:"700px", height:"400px"}} />
                   <CarouselCaption>
                   <h1 style={{marginTop:"-320px", color:"white", marginLeft:"-150px", fontSize:"25px", textAlign:"left" }} >Интернет-магазин<br/>детской одежды<br />Baby-b.com.ua</h1>
                   <p style={{position:"absolute", textAlign:"left", marginTop:"-95px", marginLeft:"200px", fontSize:"16px"}} >Наша компания хотела бы выразить благодарность студии веб-дизайн<br />
@@ -123,7 +124,7 @@ Baby-b.com.ua<br />
                   </CarouselCaption>
                 </CarouselItem>
                 <CarouselItem>
-                  <img src={balckBG} style={{marginTop:"700px", height:"400px"}} />
+                  <img src={balckBG} alt="/" style={{marginTop:"700px", height:"400px"}} />
                   <CarouselCaption>
                   <h1 style={{marginTop:"-320px", color:"white", marginLeft:"-150px", fontSize:"25px", textAlign:"left" }} >Интернет-магазин<br/>детской одежды<br />Baby-b.com.ua</h1>
                   <p style={{position:"absolute", textAlign:"left", marginTop:"-95px", marginLeft:"200px", fontSize:"16px"}} >Наша компания хотела бы выразить благодарность студии веб-дизайн<br />
