@@ -8,9 +8,9 @@ import Oblako7 from './Photo/M сити2.svg'
 import Svechenie4 from './Photo/вапшгри 7.svg'
 import GreenDot from './Photo/Mask Group2.svg'
 import Phone from './Photo/Group 137.svg'
-import logo from './Photo/logo.svg';
-import tochka from './Photo/Ellipse 3.svg';
-import FooterDot from './Photo/Group 19.svg'
+import kvadratik from './Photo/Rectangle 12.svg';
+import polosochka from './Photo/Rectangle 11.svg';
+
 export default class Footer extends Component {
   render() {
     return (
