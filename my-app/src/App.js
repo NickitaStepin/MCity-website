@@ -8,11 +8,13 @@ import AboutUs from './Components/AboutUs';
 import PricePage from './Components/PricePage';
 import ContactPage from './Components/ContactPage'
 import Clients from './Components/Clients'
+import StartProject from './Components/StartProject';
 
 function App() {
   return (
     <Router>
       <div>
+        
         <Header />
         <Routes>
           <Route path="/" element={<MainPage />} />
@@ -20,6 +22,7 @@ function App() {
           <Route path="/Price" element={<PricePage />} />
           <Route path="/Contact" element={<ContactPage />} />
           <Route path="/Clients" element={<Clients />} />
+          <Route path="/StartProject" element={<StartProject />} />
         </Routes>
       </div>
     </Router>
