@@ -7,6 +7,7 @@ import MainPage from './Components/MainPage';
 import AboutUs from './Components/AboutUs';
 import PricePage from './Components/PricePage';
 import ContactPage from './Components/ContactPage'
+import Clients from './Components/Clients'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about" element={<AboutUs />} />
           <Route path="/Price" element={<PricePage />} />
           <Route path="/Contact" element={<ContactPage />} />
+          <Route path="/Clients" element={<Clients />} />
         </Routes>
       </div>
     </Router>

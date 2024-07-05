@@ -26,7 +26,7 @@ export default class Header extends Component {
                 <NavLink style={{ position: "absolute", left: "260px", top: "30px" }}><img src={tochka} /></NavLink>
                 <NavLink as={Link} to="/about" style={{ fontSize: "20px", paddingLeft: "25px" }}>О нас</NavLink>
                 <NavLink style={{ fontSize: "20px", paddingLeft: "25px" }} as={Link} to="/Price">Услуги</NavLink>
-                <NavLink style={{ fontSize: "20px", paddingLeft: "25px" }} href="/">Портфолио</NavLink>
+                <NavLink style={{ fontSize: "20px", paddingLeft: "25px" }} as={Link} to="/Clients">Портфолио</NavLink>
                 <NavLink style={{ fontSize: "20px", paddingLeft: "25px" }} as={Link} to="/Contact">Контакты</NavLink>
                 <NavLink style={{ position: "absolute", fontSize: "20px", marginLeft: "568px", top: "0px" }} href="/"><img src={kvadratik} /></NavLink>
                 <NavLink style={{ position: "absolute", fontSize: "20px", marginLeft: "568px", top: "16px" }} href="/"><img src={polosochka} /></NavLink>
