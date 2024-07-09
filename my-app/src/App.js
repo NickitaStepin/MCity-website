@@ -9,6 +9,8 @@ import ContactPage from './Components/ContactPage';
 import Clients from './Components/Clients';
 import LoadingImage from './Components/Photo/Group 10.svg';
 import StartProject from './Components/StartProject';
+import WebDesigne from './Components/WebDesigne';
+import Promotion from './Components/Promotion';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -50,7 +52,7 @@ function App() {
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/about" element={<AboutUs />} />
-            <Route path="/Price" element={<PricePage />} />
+            <Route path="/Promotion" element={<Promotion />} />
             <Route path="/Contact" element={<ContactPage />} />
             <Route path="/Clients" element={<Clients />} />
             <Route path="/StartProject" element={<StartProject />} />

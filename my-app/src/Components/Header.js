@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Container, NavLink, Navbar, NavbarBrand, Nav } from 'react-bootstrap';
 import logo from './Photo/logo.svg';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import tochka from './Photo/Ellipse 3.svg';
 import kvadratik from './Photo/Rectangle 12.svg';
 import polosochka from './Photo/Rectangle 11.svg';
@@ -37,7 +36,7 @@ const Header = () => {
               {[
                 { path: "/", label: "Главная" },
                 { path: "/about", label: "О нас" },
-                { path: "/Price", label: "Услуги" },
+                { path: "/Promotion", label: "Услуги" },
                 { path: "/Clients", label: "Портфолио" },
                 { path: "/Contact", label: "Контакты" }
               ].map((item, index) => (
