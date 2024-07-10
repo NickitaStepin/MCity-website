@@ -4,19 +4,25 @@
   border-radius: 0;
   width: 70px;
   height: 70px;
+  opacity: 0;
+  transition: 0.3s;
   filter: invert(100%);
   margin-left: 802px ;
-
   margin-right: 330px;
   opacity: 1;
+  background-image: url('/src/Components/css/активвная стрелка.svg');
+  background-repeat: no-repeat;
 }
 .first-carousel .carousel-control-prev{
   margin-top: 316px;
   margin-left: 810px;
+  transform: rotate(180deg);
+  opacity: 0;
 }
 .first-carousel .carousel-control-next{
   margin-top: 325px;
   margin-right: 350px;
+  opacity: 0;
 }
 
 .first-carousel .carousel-control-prev-icon{
@@ -34,38 +40,47 @@
   
 }
 
-.second-carousel .carousel-control-prev,
+.second-carousel .carousel-control-prev{
+  background-color: rgba(43, 255, 0, 0);
+  height: 70px;
+  width: 80px;
+  margin-top: 630px;
+  opacity:0;
+  transform: rotate(180deg);
+  border-radius: 0;
+  filter: invert(100%);
+  transition: 0.3s;
+  left:3px;
+  background-image: url('/src/Components/css/активвная стрелка.svg');
+  background-repeat: no-repeat;
+}
 .second-carousel .carousel-control-next {
   background-color: rgba(43, 255, 0, 0);
   height: 70px;
   width: 80px;
-  opacity: 1;
+  opacity: 0;
   border-radius: 0;
   filter: invert(100%);
   margin-top: 640px;
+  transition: 0.3s;
+  right:18px;
+  background-image: url('/src/Components/css/активвная стрелка.svg');
+  background-repeat: no-repeat;
 }
 
 .second-carousel .carousel-control-next:hover{
-  background-image: url('/src/Components/css/активвная стрелка.svg');
-  margin-right: 510px;
-  background-repeat: no-repeat;
+  opacity: 1;
+ 
 }
 .second-carousel .carousel-control-prev:hover{
-  background-image: url('/src/Components/css/активвная стрелка.svg');
-  transform: rotate(180deg);
-  margin-top: 630px;
-  background-repeat: no-repeat;
+  opacity: 1;
+  
 }
 .first-carousel .carousel-control-next:hover{
-  background-image: url('/src/Components/css/активвная стрелка.svg');
- 
-  background-repeat: no-repeat;
+  opacity: 1;
 }
 .first-carousel .carousel-control-prev:hover{
-  background-image: url('/src/Components/css/активвная стрелка.svg');
-  transform: rotate(180deg);
-  
-  background-repeat: no-repeat;
+  opacity: 1;
 }
 
 
