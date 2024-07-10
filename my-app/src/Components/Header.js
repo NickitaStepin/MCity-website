@@ -6,6 +6,7 @@ import kvadratik from './Photo/Rectangle 12.svg';
 import polosochka from './Photo/Rectangle 11.svg';
 import { Link, useLocation } from 'react-router-dom';
 import '../App.css'; // Импорт стилей
+import './Animation/InHeader.css';
 
 const Header = () => {
   const location = useLocation();
@@ -55,7 +56,7 @@ const Header = () => {
               <NavLink style={{ position: "absolute", fontSize: "20px", marginLeft: "568px", top: "0px" }} href="/">
                 <img src={kvadratik} alt="Kvadratik" />
               </NavLink>
-              <NavLink style={{ position: "absolute", fontSize: "20px", marginLeft: "568px", top: "16px" }} href="/">
+              <NavLink style={{ position: "absolute", fontSize: "20px", marginLeft: "568px", top: "16px" }}className="ForPolosochka"  href="/">
                 <img src={polosochka} alt="Polosochka" />
               </NavLink>
               <NavLink style={{ fontSize: "20px", paddingLeft: "45px", fontWeight: "699", zIndex:"1" }} as={Link} to="/StartProject">Начать проект</NavLink>

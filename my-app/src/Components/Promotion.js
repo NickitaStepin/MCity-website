@@ -16,8 +16,9 @@ import man3 from './Photo8/Group 145.svg'
 import man4 from './Photo8/Group 146.svg'
 import car from './Photo8/klipartz.com - 2020-12-29T203531 1.svg'
 import BlackFon from './Photo8/Rectangle 292.svg'
-import eye from './Photo8/Монтажная область 5 3.svg'
+import eye from './Photo8/опа.svg'
 import Footer from './Footer'
+import UndLine from './Photo7/Vector 180.svg'
 
 export default class Promotion extends Component {
   render() {
@@ -88,15 +89,21 @@ export default class Promotion extends Component {
         </Container>
         <Container>
           <img src={BlackFon}style={{position:"absolute", marginTop:"-85px", marginLeft:"-300px"}} />
-          <Row style={{position:"absolute"}} >
+          <Row style={{position:"absolute", marginLeft:"110px", marginTop:"-40px"}} >
             <Col>
             <img src={eye} />
+            <img src={UndLine} style={{position:"absolute", marginTop:"180px", marginLeft:"-90px"}}/>
+            <p style={{position:"absolute", fontSize:"18px",marginTop:"30px",color:"white"}}>Гибкость настроек рекламной кампании<br/> и различные возможности для поиска<br/> своей целевой аудитории.</p>
             </Col>
-            <Col>
+            <Col style={{marginLeft:"300px"}}>
             <img src={eye} />
+            <img src={UndLine} style={{position:"absolute", marginTop:"180px", marginLeft:"-90px"}}/>
+            <p style={{position:"absolute", fontSize:"18px",marginTop:"30px",color:"white"}}>Бесплатные системы веб-аналитики<br/> позволяют анализировать кампании,<br/> чтобы понимать, окупаются ли вложения </p>
             </Col>
-            <Col>
+            <Col style={{marginLeft:"300px"}}>
             <img src={eye} />
+            <img src={UndLine} style={{position:"absolute", marginTop:"180px", marginLeft:"-90px"}}/>
+            <p style={{position:"absolute", fontSize:"18px",marginTop:"30px",color:"white", width:"400px"}}> Быстрая отдача вложенных инвестиций. Действие контекстной рекламы начинается сразу после ее размещения. </p>
             </Col>
           </Row>
         </Container>
