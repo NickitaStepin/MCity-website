@@ -129,9 +129,6 @@ export default class WebDesigne extends Component {
                     </Col>
                 </Row>
             </Container>
-            <Container style={{marginTop:"230px"}}>
-            <Footer />
-            </Container>
       </div>
       </>
     )

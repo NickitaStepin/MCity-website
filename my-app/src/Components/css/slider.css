@@ -1,3 +1,7 @@
+.first-carousel .carousel-indicators{
+  opacity: 0;
+  z-index: -3;
+}
 .first-carousel .carousel-control-prev,
 .first-carousel .carousel-control-next {
   background-color: rgba(255, 0, 0, 0);
@@ -6,7 +10,6 @@
   height: 70px;
   opacity: 0;
   transition: 0.3s;
-  filter: invert(100%);
   margin-left: 802px ;
   margin-right: 330px;
   opacity: 1;
@@ -48,7 +51,6 @@
   opacity:0;
   transform: rotate(180deg);
   border-radius: 0;
-  filter: invert(100%);
   transition: 0.3s;
   left:3px;
   background-image: url('/src/Components/css/активвная стрелка.svg');
@@ -60,7 +62,6 @@
   width: 80px;
   opacity: 0;
   border-radius: 0;
-  filter: invert(100%);
   margin-top: 640px;
   transition: 0.3s;
   right:18px;

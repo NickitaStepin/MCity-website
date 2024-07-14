@@ -1,0 +1,14 @@
+.Card{
+    transition: 0.4s;
+}
+img.Card:hover{
+    margin-left: -10px;
+}
+
+.Card2{
+    transition: 0.4s;
+    opacity: 0;
+}
+img.Card2:hover{
+    opacity: 1;
+}
