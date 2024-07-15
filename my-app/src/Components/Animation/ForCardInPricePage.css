@@ -1,14 +1,37 @@
 .Card{
+    position: relative;
     transition: 0.4s;
 }
-img.Card:hover{
-    margin-left: -10px;
+.CardText{
+    position: absolute;
+    transition: 0.4s;
+}
+.CardContainer{
+    position: relative;
+    margin-left: -12px;
+    transition: 0.4s;
+}
+.CardContainer:hover .Card, 
+.CardContainer:hover .CardText {
+    margin-left: -12px;
 }
 
+
 .Card2{
+    position: relative;
     transition: 0.4s;
-    opacity: 0;
+    opacity: 0; 
 }
-img.Card2:hover{
+.CardText2{
+    position: absolute;
+    transition: 0.4s;
+}
+.CardContainer2{
+    position: relative;
+    margin-left: -12px;
+    transition: 0.4s;
+}
+.CardContainer2:hover .Card2, 
+.CardContainer2:hover .CardText2 {
     opacity: 1;
 }
