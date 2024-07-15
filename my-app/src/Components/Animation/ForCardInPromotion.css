@@ -1,0 +1,23 @@
+.Card2{
+    transition: 0.4s;
+    opacity: 0;
+}
+
+img.Card2:hover{
+    opacity: 1;
+}
+
+.ContainerCard{
+    transition: 0.4s;
+}
+
+.ContainerCard:hover{
+    margin-top:-25px;
+}
+.ContainerCard2{
+    transition: 0.4s;
+}
+
+.ContainerCard2:hover{
+    margin-top:-35px;
+}
