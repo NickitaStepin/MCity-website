@@ -1,8 +1,36 @@
-.ForPolosochka{
-    transition: 0.2s;
-    
-}
-.ForPolosochka:hover{
-    transform: scaleY(-8);
+.ForPolosochka img {
+    transition: transform 0.3s, height 0.3s;
+    height: 3px; /* начальная высота изображения */
+    width: 190px; /* фиксированная ширина, если требуется */
+    transform-origin: bottom; /* трансформация от нижней границы */
 }
 
+.ForPolosochka img.hovered {
+    transform: scaleY(9); /* меняет только высоту */
+    height: 3px; /* высота при наведении */
+}
+
+.start-project:hover {
+    color: white; /* цвет текста при наведении */
+}
+
+.kvadratik img {
+    width: 70px; /* фиксированная ширина */
+    height: 50px; /* высота квадратика должна совпадать */
+    position: relative;
+    left: -10px; /* смещение влево */
+    transition: width 0.3s, height 0.3s, left 0.3s;
+    bottom: 10px;
+    left: -20px; /* сдвиг, чтобы оставался на месте */
+    transform-origin: center; /* трансформация от нижней границы */
+}
+
+.kvadratik img.hovered {
+    left: -50px; /* сдвиг, чтобы оставался на месте */
+    transform: scale(0.1, 0.56); 
+}
+
+.hovered {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
